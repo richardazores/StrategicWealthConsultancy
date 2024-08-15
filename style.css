@@ -218,7 +218,7 @@ textarea {
   margin-bottom: 40px;
 }
 
-.about-box {
+.box2 {
   flex: 1; /* Take up equal space */
   background-color: black; /* 50% transparent red */
   border: 1px solid #ccc; /* Slight border for visibility */
@@ -232,7 +232,7 @@ textarea {
   justify-content: center;
 }
 
-.about-text {
+.text2 {
   font-size: 25px;
   color: white;
   line-height: 30px;
