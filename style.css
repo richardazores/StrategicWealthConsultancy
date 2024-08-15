@@ -217,3 +217,25 @@ textarea {
   text-align: justify;
   margin-bottom: 40px;
 }
+
+.about-box {
+  flex: 1; /* Take up equal space */
+  background-color: black; /* 50% transparent red */
+  border: 1px solid #ccc; /* Slight border for visibility */
+  padding: 30px;
+  margin: 30px;
+  border-radius: 8px; /* Optional: rounded corners */
+  color: black;
+  box-sizing: border-box; /* Include padding in width calculation */
+  min-height: 420px;
+  max-width: 75%;
+  justify-content: center;
+}
+
+.about-text {
+  font-size: 25px;
+  color: white;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
