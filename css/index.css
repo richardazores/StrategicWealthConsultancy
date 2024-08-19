@@ -1,0 +1,104 @@
+/* Background and Layout */
+.bg-adjustable {
+  background-image: url(/images/landing-bg.jpg);
+  background-size: cover; /* Cover the whole area */
+  background-position: center; /* Center the image */
+  height: 100vh; /* Full height */
+}
+
+/* Logo Styles */
+.logo {
+  width: 100%; /* Image will scale with the container */
+  height: auto; /* Maintain aspect ratio */
+  min-width: 100px; /* Minimum width for logo */
+}
+
+.logo-container {
+  width: 100%; /* Container will take full width */
+  max-width: 300px; /* Max width for logo */
+  padding: 20px; /* Padding around the logo */
+  max-height: 10%; /* Maximum height for the logo container */
+}
+
+/* Navigation Styles */
+header nav .menu {
+  display: flex;
+  align-items: center; /* Align items in the center */
+}
+
+nav .menu a {
+  color: #fff; /* Link color */
+  margin-left: 30px; /* Space between links */
+  position: relative; /* For positioning pseudo-elements */
+}
+
+nav .menu a::after {
+  content: ""; /* Pseudo-element content */
+  position: absolute; /* Positioning relative to the link */
+  bottom: -5px; /* Position below the link */
+  left: 0; /* Align to the left */
+  width: 0%; /* Initial width for effect */
+  height: 2px; /* Height of the underline */
+  background-color: #dd0707; /* Underline color */
+  transition: 0.4s; /* Smooth transition */
+}
+
+/* Active link style */
+nav .menu a.active {
+  border-bottom: solid #dd0707; /* Border for active link */
+}
+
+/* Hero Section Styles */
+.hero {
+  display: flex; /* Align items */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+.hero .text {
+  width: 90%; /* Width of the text container */
+  margin: auto; /* Center the text container */
+}
+
+/* Text Styles in Hero Section */
+.hero .text h4 {
+  font-size: 4vw; /* Responsive font size */
+  color: #fff; /* Text color */
+  font-weight: 500; /* Font weight */
+  margin-bottom: 10px; /* Space below the heading */
+}
+
+.hero .text h1 {
+  color: #fff; /* Text color */
+  font-size: 6vw; /* Responsive font size */
+  text-transform: uppercase; /* Uppercase text */
+  line-height: 1; /* Line height */
+  margin-bottom: 30px; /* Space below the heading */
+}
+
+.hero .text h1 span {
+  color: #dd0707; /* Highlight color */
+  font-size: 8vw; /* Larger responsive font size */
+  font-weight: bold; /* Bold font weight */
+}
+
+.hero .text p {
+  color: #fff; /* Text color */
+  margin-bottom: 30px; /* Space below the paragraph */
+}
+
+/* Button Styles */
+.hero .text .btn {
+  padding: 10px 30px; /* Padding inside the button */
+  background-color: #dd0707; /* Button background color */
+  text-transform: uppercase; /* Uppercase text */
+  color: #fff; /* Text color */
+  font-weight: bold; /* Bold font weight */
+  border-radius: 30px; /* Rounded corners */
+  border: 2px solid #dd0707; /* Border color */
+  transition: 0.3s; /* Smooth transition */
+}
+
+.hero .text .btn:hover {
+  background-color: transparent; /* Background on hover */
+}
