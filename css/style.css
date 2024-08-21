@@ -24,6 +24,11 @@ body,
   background-size: cover; /* Cover the whole area */
   background-position: center; /* Center the image */
 }
+.background-services {
+  background-image: url(/images/landing-bg.jpg);
+  background-size: cover; /* Cover the whole area */
+  background-position: center; /* Center the image */
+}
 
 header {
   display: flex;
