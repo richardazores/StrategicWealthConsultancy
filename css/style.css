@@ -62,10 +62,10 @@ body {
   font-size: 36px;
   font-family: "Lato-Black";
   text-transform: uppercase;
-  background: -webkit-linear-gradient(left, #1d3ede, #01e6f8);
-  background: -ms-linear-gradient(left, #1d3ede, #01e6f8);
-  background: -moz-linear-gradient(left, #1d3ede, #01e6f8);
-  background: -o-linear-gradient(left, #1d3ede, #01e6f8);
+  background: -webkit-linear-gradient(left, #e21634, #ff868c);
+  background: -ms-linear-gradient(left, #e21634, #ff868c);
+  background: -moz-linear-gradient(left, #e21634, #ff868c);
+  background: -o-linear-gradient(left, #e21634, #ff868c);
   -webkit-background-clip: text;
   -ms-background-clip: text;
   -o-background-clip: text;
@@ -98,7 +98,7 @@ body {
 #gtco-main-nav .navbar-nav li a {
   font-family: "OpenSans-Regular";
   font-size: 18px;
-  color: #666666;
+  color: black;
   padding: 5px 15px !important;
   text-transform: uppercase;
 }
@@ -111,8 +111,8 @@ body {
   border-width: 2px;
 }
 #gtco-main-nav form a.btn-info {
-  background: #01e6f8;
-  border-color: #01e6f8;
+  background: #ff868c;
+  border-color: #ff868c;
 }
 #gtco-main-nav form a.btn-outline-dark {
   border-color: #fff;
@@ -120,8 +120,8 @@ body {
 }
 @media (max-width: 991px) {
   #gtco-main-nav form a.btn-outline-dark {
-    border-color: #1d3ede;
-    color: #1d3ede;
+    border-color: #e21634;
+    color: #e21634;
   }
 }
 #gtco-main-nav::after {
@@ -129,11 +129,11 @@ body {
   content: "";
   height: 600px;
   width: 900px;
-  background-image: -webkit-linear-gradient(-220deg, #1d3ede, #01e6f8);
-  background-image: -moz-linear-gradient(-220deg, #1d3ede, #01e6f8);
-  background-image: -ms-linear-gradient(-220deg, #1d3ede, #01e6f8);
-  background-image: -o-linear-gradient(-220deg, #1d3ede, #01e6f8);
-  background-image: linear-gradient(-220deg, #1d3ede, #01e6f8);
+  background-image: -webkit-linear-gradient(-220deg, #e21634, #ff868c);
+  background-image: -moz-linear-gradient(-220deg, #e21634, #ff868c);
+  background-image: -ms-linear-gradient(-220deg, #e21634, #ff868c);
+  background-image: -o-linear-gradient(-220deg, #e21634, #ff868c);
+  background-image: linear-gradient(-220deg, #e21634, #ff868c);
   left: 49.5%;
   top: -50px;
   z-index: -1;
@@ -161,6 +161,13 @@ body {
   #gtco-main-nav::after {
     width: 100%;
     height: 400px;
+  }
+  #gtco-main-nav .navbar-nav li a {
+    font-family: "OpenSans-Regular";
+    font-size: 18px;
+    color: white;
+    padding: 5px 15px !important;
+    text-transform: uppercase;
   }
 }
 #gtco-main-nav::before {
@@ -207,7 +214,7 @@ body {
   width: 70%; /* Image will scale with the container */
   height: auto; /* Maintain aspect ratio */
   min-width: 50px; /* Minimum width for logo */
-  background: -webkit-linear-gradient(left, #1d3ede, #01e6f8);
+  background: -webkit-linear-gradient(left, #e21634, #ff868c);
   border-radius: 5px;
 }
 
@@ -216,9 +223,9 @@ body {
 .gtco-features a,
 .gtco-news .owl-carousel .card a,
 #gtco-footer .submit-button {
-  background-image: -moz-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
-  background-image: -webkit-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
-  background-image: -ms-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
+  background-image: -moz-linear-gradient(0deg, #e21634 0%, #ff868c 100%);
+  background-image: -webkit-linear-gradient(0deg, #e21634 0%, #ff868c 100%);
+  background-image: -ms-linear-gradient(0deg, #e21634 0%, #ff868c 100%);
   font-size: 18px;
   font-family: "OpenSans-Semibold";
   color: #fff;
@@ -238,7 +245,7 @@ body {
   border-radius: 50%;
   height: 32px;
   width: 32px;
-  color: #37eaf9;
+  color: #ff868c;
   font-size: 22px;
   text-align: center;
   padding-top: 5px;
@@ -415,7 +422,7 @@ body {
 .gtco-features .col-lg-8 .card h3 {
   font-family: "Lato-Regular";
   font-size: 24px;
-  color: #1d3ede;
+  color: #e21634;
 }
 .gtco-features .col-lg-8 .card p {
   font-size: 16px;
@@ -566,14 +573,14 @@ body {
   border-radius: 50%;
   display: block;
   background: #fff;
-  border: 2px solid #01e6f8;
+  border: 2px solid #ff868c;
   margin: 0 5px;
 }
 .gtco-testimonials .owl-dots .active {
   box-shadow: none;
 }
 .gtco-testimonials .owl-dots .active span {
-  background: #01e6f8;
+  background: #ff868c;
   box-shadow: none;
   height: 12px;
   width: 12px;
@@ -590,12 +597,12 @@ body {
   max-width: 100px;
   border-radius: 50%;
   margin: 0 auto;
-  border: 5px solid #1d3ede;
+  border: 5px solid #e21634;
   width: 100px;
   height: 100px;
 }
 .gtco-testimonials .card h5 {
-  color: #1d3ede;
+  color: #e21634;
   font-size: 21px;
   line-height: 1.3;
   font-family: "Lato-Medium";
@@ -745,7 +752,7 @@ body {
 #gtco-footer h4 {
   font-family: "Lato-Medium";
   font-size: 24px;
-  color: #1d3ede;
+  color: #e21634;
   margin-bottom: 30px;
 }
 #gtco-footer input,
@@ -825,9 +832,9 @@ body {
 /* "Go to Top" Button Styling */
 .go-top-btn {
   position: fixed;
-  bottom: 5vw;
-  right: 2vw;
-  background: -webkit-linear-gradient(left, #1d3ede, #01e6f8);
+  bottom: 20px;
+  right: 20px;
+  background: -webkit-linear-gradient(left, #e21634, #ff868c);
   color: #fff;
   border: none;
   border-radius: 50%;
@@ -837,13 +844,15 @@ body {
   display: none; /* Hidden by default */
   cursor: pointer;
   transition: opacity 0.3s, visibility 0.3s;
+  text-align: center;
+  line-height: 50px; /* Center the text vertically */
 }
 
 .go-top-btn:hover {
-  background: -webkit-linear-gradient(left, #1d3ede, #01e6f8);
+  background-color: #555;
 }
 
-/* Button visibility when scrolled */
+/* Show button when scrolled */
 .go-top-btn.show {
   display: block;
 }
